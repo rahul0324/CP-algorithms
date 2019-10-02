@@ -38,8 +38,8 @@ int main(void)
 		cin>>a[i];
 	}
 	int result = binarySearch(arr, 0, n - 1, x); 
-	(result == -1) ? printf("Element is not present in array") 
-				: printf("Element is present at index %d", 
+	(result == -1) ? printf("Element is present in array") 
+				: printf("Element is not present at index %d", 
 							result); 
 	return 0; 
 } 
