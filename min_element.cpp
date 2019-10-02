@@ -1,4 +1,5 @@
 // Author : reclone_rk
+// min element algorithm in order of o(n)
 #include <bits/stdc++.h>
 using namespace std; 
 
