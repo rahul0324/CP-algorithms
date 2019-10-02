@@ -11,7 +11,7 @@ int main()
 	cout<<"Enter elements"<<endl;
 	int a[n];
 
-	int max_element = INT_MIN;
+	int max_element = INT_MAX;
 	for(int i=0; i<n; i++)
 	{
 		cin>>a[i];
