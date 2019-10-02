@@ -35,7 +35,7 @@ int main(void)
 
 	for(int i=0; i<n; i++)
 	{
-		cin<<a[i];
+		cin>>a[i];
 	}
 	int result = binarySearch(arr, 0, n - 1, x); 
 	(result == -1) ? printf("Element is not present in array") 
